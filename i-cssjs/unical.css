@@ -1,0 +1,120 @@
+div#festival {
+color: #d8f6f8; 
+width: 130px; 
+padding: 2px; 
+margin: 0; 
+background-color: #0978a6; 
+}
+div#datedetail {
+width: 280px; 
+border: 0; 
+padding: 2px; 
+margin: 0; 
+background-color:#e8f5f9; 
+text-align:right; 
+line-height: 50px;
+}
+div#datedetail span {
+color: #23460f;
+}
+div#detail {
+position: absolute;
+visibility: hidden;
+margin: 0;
+border:1px solid #a6a8ab;
+}
+
+div#date {
+clear:both;
+padding-top:0 !important;
+padding-top:12px;
+width:490px;
+height:28px;
+border: 1px solid #a6a8ab; 
+background-color: #e6f0fa;
+font-size:1.2rem;
+}
+div#calendar {
+text-align:center;
+width:490px;
+border: 1px solid #a6a8ab; 
+border-top:0;
+height:auto;
+}
+#calendarhead {
+color: #fafbfb;
+border:0;
+padding:0;
+margin:0;
+background-color: #0978a6;
+font-size: 1.2rem;
+}
+
+#calendarhead tr td {
+width:70px;
+}
+
+div#panel {
+margin:0;
+padding:10px;
+float:left;
+position: absolute;
+top: 50px;
+left: 520px;
+}
+div#panel div {
+padding:2px;
+margin-top:10px;
+background:#e8f5f9;
+border:1px solid #a6a8ab;
+cursor:pointer;
+}
+
+#week {
+background-color: #fcfcfc;
+border:0;
+padding:0;
+margin:0;
+font-size:1.2rem;
+}
+#week tr td {
+margin:0;
+width:70px;
+height: 45px;
+border-bottom: 1px solid #efefef;
+border-left: 1px solid #efefef;
+}
+
+.tr2 td {
+background-color: #e8f5f9;
+}
+
+#detail{
+	left:650px!important;
+    top:10px!important;
+}
+#festival{
+	width:25rem!important;
+}
+div#calendar{
+	border:0!important;
+}
+
+.labTxt{
+    text-align: left;
+    position: absolute;
+    left:530px;
+    top:380px;
+}
+.labTxt input[type="text"]{
+    width: 80px;
+}
+.divStr{
+    height: 35px;
+    line-height: 30px;
+}
+
+#lbdh{
+    width: 60px;
+    height: 42px;
+}
